@@ -92,7 +92,7 @@ function draw() {
   ctx.fillStyle = "#F2F230"
   ctx.fillRect(200,600,100,100)
 
-
+ //borders on top
   ctx.strokeRect(300,0,100,200);
   ctx.strokeRect(300,300,300,400);
   ctx.strokeRect(150,300,150,400);

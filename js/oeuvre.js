@@ -3,6 +3,7 @@
 // variable globale
 let monCanvas;
 let ctx;
+
 function start() {
   // constante locale
   monCanvas = document.getElementById("ecal");
@@ -48,13 +49,40 @@ function draw() {
   }
 
 
+
+  // essai pour animer le cube noir:
+
+  // let start = Date.now(); // remember start time
+  // let cubeWidth = 100
+  // let max_X = 600;
+  // for (x=100; x< (max_X-cubeWidth); x++) {
+  //   ctx.fillStyle = "black"
+  //   ctx.fillRect(x,200,cubeWidth,100)
+
+  //   let timer = setInterval(function())  {
+
+  //   // how much time passed from the start?
+
+  //   let timePassed = Date.now() - start;
+
+ 
+
+  //   if (timePassed >= 2000) {
+
+  //     clearInterval(timer); // finish the animation after 2 seconds
+
+  //    return;
+  //   }
+  // }
+  // }
+
+  //black
+  ctx.fillStyle = 'black'
+  ctx.fillRect(100,200,100,100)
+
   //green
   ctx.fillStyle = "#7CB247"
   ctx.fillRect(300,100,100,100)
-
-  //black
-  ctx.fillStyle = "black"
-  ctx.fillRect(100,200,100,100)
 
   //orange
   ctx.fillStyle = '#E55A23'
